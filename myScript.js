@@ -15,6 +15,6 @@ function kingFunction(){
 
 function replaceImage(piece){
     const source = `photos/${piece}.png`;
-    console.log(source);
     document.getElementById("piece").src = source;
+
 }
